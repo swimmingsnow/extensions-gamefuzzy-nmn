@@ -27340,6 +27340,9 @@ const Languages_1 = require("./Languages");
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const CryptoJS = require('./external/crypto.min.js');
 class Parser {
+    constructor() {
+        this.pages = imgList.map((value, index) => `${value}?${tknList[index]}`);
+    }
     parseMangaDetails($, mangaId) {
         var _a;
         const titles = [this.decodeHTMLEntity($('a', $('.item-title')).text().trim())];
