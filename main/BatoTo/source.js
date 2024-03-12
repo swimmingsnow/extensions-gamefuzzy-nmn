@@ -27038,8 +27038,8 @@ const paperback_extensions_common_1 = require("paperback-extensions-common");
 const Parser_1 = require("./Parser");
 const BATOTO_DOMAIN = 'https://bato.to';
 exports.BatoToInfo = {
-    version: '3.0.4',
-    name: 'Batoto',
+    version: '2.0.3',
+    name: 'Bato.to',
     description: 'Extension that pulls western comics from bato.to',
     author: 'GameFuzzy & NmN',
     authorWebsite: 'http://github.com/gamefuzzy',
